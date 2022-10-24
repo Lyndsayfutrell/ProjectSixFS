@@ -1,0 +1,14 @@
+{
+    "data": {
+        "projects": [{
+        "id":0,
+        "project-name": "A Random Quote Generator",
+        "description":"",
+        "technologies":"",
+        "live_link":"",
+        "github_link":"",
+        "image_urls":""
+        }
+        ]
+    }
+}
