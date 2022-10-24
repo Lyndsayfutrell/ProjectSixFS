@@ -2,11 +2,11 @@
     "data": {
         "projects": [{
         "id":0,
-        "project-name": "A Random Quote Generator",
-        "description":"",
-        "technologies":"",
-        "live_link":"",
-        "github_link":"",
+        "project_name": "A Random Quote Generator",
+        "description":"JavaScript and data structures are used by building a Random Quote Generator, a program that displays a randomly selected quote each time the user clicks a button.",
+        "technologies":["Javascript","CSS"],
+        "live_link":"hello.com",
+        "github_link":"https://github.com/Lyndsayfutrell/ProjectOneFS",
         "image_urls":""
         }
         ]

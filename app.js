@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const app = express();
 const { data } = require('./data.json');
+const { projects } = data;
 
 app.use(bodyParser.urlencoded({ extended: false}));
 app.use(cookieParser());
@@ -20,10 +21,14 @@ app.get('/about', (req, res) => {
     res.render('about');
 });
 
-app.get('/project:id', (req, res) => {
+app.get('/project/:id', (req, res) => {
     const { id } = req.params;
-    res.locals = data.projects;
-    res.render('project');
+    const projectData = projects[id]
+    const name = projects[id].project_name;
+    const des = projects[id].description;
+    console.log(projectData);
+    res.render('project', projectData);
+
 });
 
 app.use((req, res, next) => {
