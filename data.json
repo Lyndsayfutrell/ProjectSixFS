@@ -7,7 +7,7 @@
         "technologies":["Javascript"],
         "live_link":"https://lyndsayfutrell.github.io/ProjectOneFS/",
         "github_link":"https://github.com/Lyndsayfutrell/ProjectOneFS",
-        "image_urls":["/static/images/project_one1.png","/static/images/project_one1.png"]
+        "image_urls":["/static/images/project_one1.png","/static/images/project_one2.png","/static/images/project_one3.png"]
         },{
         "id":1,
         "project_name": "Data Pagination and Filtering",
@@ -15,7 +15,7 @@
         "technologies":["Javascript","CSS"],
         "live_link":"https://lyndsayfutrell.github.io/ProjectTwoFS/",
         "github_link":"https://github.com/Lyndsayfutrell/ProjectTwoFS",
-        "image_urls":["/static/images/project_one1.png","/static/images/project_one1.png"]
+        "image_urls":["/static/images/project_two1.png","/static/images/project_two2.png","/static/images/project_two3.png"]
         },{
         "id":2,
         "project_name": "Interactive Form",
@@ -23,7 +23,7 @@
         "technologies":["Javascript","CSS","HTML"],
         "live_link":"https://lyndsayfutrell.github.io/ProjectThreeFS/",
         "github_link":"https://github.com/Lyndsayfutrell/ProjectThreeFS",
-        "image_urls":["/static/images/project_one1.png","/static/images/project_one1.png"]
+        "image_urls":["/static/images/project_three1.png","/static/images/project_three2.png","/static/images/project_three3.png"]
         },{
         "id":3,
         "project_name": "OOP Game Show App",
@@ -31,7 +31,7 @@
         "technologies":["Javascript"],
         "live_link":"https://lyndsayfutrell.github.io/ProjectFourJS/",
         "github_link":"https://github.com/Lyndsayfutrell/ProjectFourJS",
-        "image_urls":["/static/images/project_one1.png","/static/images/project_one1.png"]
+        "image_urls":["/static/images/project_four1.png","/static/images/project_four2.png","/static/images/project_four3.png"]
         },{
         "id":4,
         "project_name": "Public API Requests",
@@ -39,7 +39,7 @@
         "technologies":["Javascript", "API"],
         "live_link":"https://lyndsayfutrell.github.io/ProjectFiveFS/",
         "github_link":"https://github.com/Lyndsayfutrell/ProjectFiveFS",
-        "image_urls":["/static/images/project_one1.png","/static/images/project_one1.png"]
+        "image_urls":["/static/images/project_five1.png","/static/images/project_five2.png","/static/images/project_five3.png"]
         }
         ]
     }
