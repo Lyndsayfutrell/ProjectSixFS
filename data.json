@@ -5,9 +5,9 @@
         "project_name": "A Random Quote Generator",
         "description":"JavaScript and data structures are used by building a Random Quote Generator, a program that displays a randomly selected quote each time the user clicks a button.",
         "technologies":["Javascript","CSS"],
-        "live_link":"hello.com",
+        "live_link":"https://lyndsayfutrell.github.io/ProjectOneFS/",
         "github_link":"https://github.com/Lyndsayfutrell/ProjectOneFS",
-        "image_urls":""
+        "image_urls":"/static/images/project_one1.png"
         }
         ]
     }
