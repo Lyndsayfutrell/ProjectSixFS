@@ -1,12 +1,10 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const cookieParser = require('cookie-parser');
 const app = express();
 const { data } = require('./data.json');
 const { projects } = data;
 
 app.use(bodyParser.urlencoded({ extended: false}));
-app.use(cookieParser());
 app.use('/static', express.static('public'));
 
 app.set('view engine', 'pug');
@@ -30,7 +28,8 @@ app.get('/project/:id', (req, res) => {
 app.use((req, res, next) => {
     const err = new Error('Not Found');
     err.status = 404;
-    next(err);
+    res.locals.error = err;
+    res.render('page-not-found', err);
   });
   
   app.use((err, req, res, next) => {

@@ -1,5 +1,9 @@
 extends layout.pug
 
 block content
-    h1= error
-    p= status
+    nav.nav
+        a(href='/')
+        span &larr;
+      |      Back
+    h1= `${error.message} - Status: ${error.status}`
+    p= error.stack
