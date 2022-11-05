@@ -33,8 +33,10 @@ app.use((req, res, next) => {
   });
   
   app.use((err, req, res, next) => {
-    res.locals.error = err;
-    res.status(err.status);
+    const error = new Error('Not Found');
+    error.status = 404;
+    res.locals.error = error;
+    res.status(error.status);
     res.render('error');
   });
 
